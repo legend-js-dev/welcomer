@@ -11,7 +11,7 @@ run: async (client, message, args, db) => {
   .setDescription("The leave channel has Been set")
   .setAuthor(message.author.tag, message.author.displayAvatarURL({ dynamic: true }))
   .setTimestamp()
-  .setFooter(message.guild.name, message.guild.iconURL())
+  .setFooter(message.guild.name + " | made by LΣGΣПD#0001", message.guild.iconURL())
   .setThumbnail(message.guild.iconURL())
   .setColor("GREEN")
   .addField("Channel", channel.toString())
