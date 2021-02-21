@@ -14,3 +14,7 @@ an Open source welcomer for discord (don’t remove credits.)
 
 ###### If you have any errors, problems or want me to make you a custom bot (paid) dm me on discord (LΣGΣПD#0001)
 `Note: i dont accept friend requests on discord (i have 124 friend requests thats why) so you will have to join devs hub or dark codes to dm me.`
+
+#### Starting the bot
+- `npm install`
+- `node index.js`
