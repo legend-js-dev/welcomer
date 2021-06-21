@@ -35,7 +35,7 @@ run: async (client, message, args, db) => {
   .setTimestamp()
   .setThumbnail(message.guild.iconURL())
   .setColor("GREEN")
-  .setFooter(message.guild.name + " | made by LΣGΣПD#0001", message.guild.iconURL())
+  .setFooter(message.guild.name + " | made by legendjs#0001", message.guild.iconURL())
   message.channel.send({ embed: embed })
 }
 }
