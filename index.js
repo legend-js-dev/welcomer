@@ -30,7 +30,7 @@ console.log("-------------------------------------")
 //this took me some time so dont you dare remove credits, if u do remove credits then you will have copy right issues.
 client.on("ready", () => {
     console.log(`[INFO]: Ready on client (${client.user.tag})`)
-    client.user.setActivity("welcomer bot by legend :D", { type: "WATCHING" })
+    client.user.setActivity("welcomer bot by legendjs :D", { type: "WATCHING" })
 })
 
 client.on("message", async message => {
